@@ -1,0 +1,130 @@
+.maindiv_history {
+    font-family: "Kameron", serif;
+  }
+
+  .history_upper {
+    color: white;
+    background: #3056a6;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #3056a6);
+    height: 100vh;
+  }
+  .arrowDiv{
+    width: 3rem;
+    color: white;
+  }
+  .second_div,
+  .fourth_div {
+    flex-direction: row-reverse;
+  }
+  .aim_img {
+    width: 15vw;
+  }
+  .Title {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-family: "Kameron", serif;
+  }
+  .history_title1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Kameron", serif;
+  }
+
+
+  .arrowdiv_about {
+    position: relative;
+    top: 30vh;
+    cursor: pointer;
+    text-align:center;
+  }
+  .ourstory_content {
+    padding: 1rem 0rem;
+    font-family: "Kameron", serif;
+  }
+  .ourstory_begins_div {
+    padding: 1rem;
+    font-family: "Kameron", serif;
+  }
+  .begin_title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    font-family: "Kameron", serif;
+  }
+  .content_story {
+    font-family: "Kameron", serif;
+  }
+  .alertText {
+    text-align: center;
+    font-family: "Kameron", serif;
+  }
+  .left_begin_content {
+    margin: 1rem 0rem;
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+    font-family: "Kameron", serif;
+  }
+  .right_begin_img {
+    margin: 1rem 0rem;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .Title {
+      text-align: center;
+      position: relative;
+      top: 10vh;
+      font-family: "Kameron", serif;
+    }
+    .history_title1 {
+      font-size: 2.5rem;
+      font-family: "Kameron", serif;
+      font-weight: bold;
+    }
+
+    .arrowdiv_about {
+      position: relative;
+      top: 23vh;
+      cursor: pointer;
+      text-align:center;
+    }
+    .third_div,
+    .fourth_div {
+      padding: 0rem 1rem;
+    }
+    .aim_img {
+      width: 40vw;
+    }
+  }
+
+  @media screen and (max-width: 538px) {
+    .Title {
+      text-align: center;
+      position: relative;
+      top: 10vh;
+      font-family: "Kameron", serif;
+    }
+    .history_title1 {
+      font-size: 2rem;
+      font-family: "Kameron", serif;
+      font-weight: bold;
+    }
+
+    .begin_title {
+      font-size: 1.5rem;
+    }
+    .left_begin_content {
+      margin: 1rem 0rem;
+      padding: 1rem 1rem;
+      font-size: 1.2rem;
+    }
+    .aim_img {
+      width: 50vw;
+    }
+  }

@@ -1,0 +1,112 @@
+.MainLoginDiv {
+    background: linear-gradient(90deg, #2157ad 0%, #6190da 100%);
+    margin-top: 0.5rem;
+  }
+  .bannerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .row {
+    margin: 0%;
+    padding: 0%;
+  }
+  .ORText{
+    text-align:center;
+    color:gray;
+    font-size: 0.9rem;
+    margin: 0px;
+  }
+  .Leftpart {
+    padding: 40px 10px;
+    color: white;
+    min-height: 72vh;
+  }
+  .mob_content {
+    display: none;
+    flex-direction: column;
+  }
+  .left_heading {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .leftpart_lower {
+    text-align: center;
+  }
+  .leftpart_lower p {
+    padding: 0px;
+    margin: 1px;
+    font-size: 0.9rem;
+  }
+  .createbtn {
+    border: 0px solid white;
+    color: #0070e7;
+    background: white;
+    padding: 1% 3%;
+    border-radius: 5px;
+    outline: none;
+  }
+  .Rightpart {
+    background: white;
+  }
+  .Login_form_div {
+    padding: 0px 4%;
+    padding-bottom: 0%;
+    margin-top: 1rem;
+  }
+  .Login_feild {
+    padding-top: 20px;
+  }
+  .other_login {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .create_acount_text {
+    padding: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .text_span {
+    color: #2258ae;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 768px) {
+    .Leftpart {
+      padding: 20px 33px;
+      padding-bottom: 0px;
+    }
+    .content {
+      display: none;
+    }
+    .mob_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .img_logo img {
+      width: 20vw;
+    }
+    .mob_contentText {
+      text-align: center;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+    .left_heading {
+      font-size: 1.5rem;
+      padding: 0px;
+      margin: 0px;
+    }
+    .left_heading p {
+      margin: 0px;
+    }
+    .Leftpart {
+      min-height: 5vh;
+    }
+    .Rightpart {
+      border-radius: 20px 20px 0px 0px;
+      height: 18rem;
+    }
+  }

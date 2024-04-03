@@ -1,0 +1,144 @@
+#thanksbody{
+    padding: 4%;
+    padding-top: 2%;
+    }
+    #handshake{
+        width:60px;
+        height:60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center{
+        text-align: center;
+    }
+    #l1_thanks{
+        font-size: 150%;
+        margin: 0%;
+    }
+    #l2_we{
+        font-size: 130%;
+        text-align: center;
+    }
+    
+    #part1{
+     color: #696969;  
+    }
+    #part2{
+        color: #00baf2;
+    }
+    #procced{
+        color: white;
+        background-color: #00baf2;
+        margin-left: 42%;
+        width: 10%;
+        border: 0px  #00baf2;
+        padding: .3%;
+        border-radius:3px;
+        margin-bottom: 1%;
+    }
+    #how{
+        /* display: flex; */
+        padding: 0%;
+        margin: 0%;
+        margin-left:30%;
+    }
+    #back{
+        color: white;
+        background-color: #00baf2;
+        margin-left: 41.5%;
+        width: 17vw;
+        font-size: 105%;
+        padding: 0.5%;
+        border: 0px  #00baf2;
+        border-radius:3px;
+    }
+    #thankssubmit{
+        width: 10%;
+        margin-left: 3%;
+        padding-top: 0%;
+        background-color: rgb(0, 186, 242);
+        color: white;
+        border-bottom: 0px;
+        border-radius: 3px;
+    }
+    @media screen and (max-width:991px) and (min-width:768px){
+        #thanksbody{
+            padding: 0%;
+            margin-top: 0%;
+            padding-top: 0%;
+        }
+        #procced{
+            width: 15vw;
+            margin-left: 42%;
+        }
+        #thankssubmit{
+             width: 12vw;
+             padding-top: 0.5%;
+        }
+        #how{
+            margin-left: 25%;
+        }
+    }
+    @media screen and (max-width:767px) and (min-width:539px){
+        #thanksbody{
+            padding: 0%;
+            margin-top: 0%;
+            padding-top: 0%;
+        }
+        #procced{
+            width: 15vw;
+            margin-left: 42%;
+            font-size: 2.5vw;
+        }
+        #thankssubmit{
+             width: 12vw;
+             padding-top: 0.5%;
+             font-size: 2.5vw;
+             margin-left: 9%;
+        }
+        #back{
+            width: 19vw;
+            font-size: 2.5vw;
+            margin-left: 40%;
+        }
+        #how{
+            padding: 1%;
+            margin: 0%;
+            margin-left: 37%;
+        }
+    }
+    @media screen and (max-width:538px){
+        #thanksbody{
+    /* padding: 3%; */
+    margin-top: 25%;
+    width: 96%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px 0 #847676;
+    margin-left: 2%;
+    margin-bottom: 2%;
+        }
+        #procced{
+            width: 27vw;
+            margin-left: 37%;
+            font-size: 3.5vw;
+            padding: 2%;
+        }
+        #thankssubmit{
+            width: 25vw;
+            padding: 2%;
+            font-size: 3.5vw;
+        }
+        #back{
+            width: 28vw;
+            font-size: 3.5vw;
+            margin-left: 36%;
+            padding: 2%;
+            margin-top: 2%;
+        }
+        #how{
+            padding: 1%;
+            margin: 0%;
+            margin-left: 37%;
+        }
+    }

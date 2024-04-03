@@ -1,0 +1,26 @@
+.myaccountdiv{
+    color:rgba(72, 72, 72, 0.8);
+    
+  }
+.myaccountdiv:hover{
+    color:#2248AE;
+    background-color:#2258ae1a;
+  }
+  .imageInputdiv {
+    text-align: center;
+  }
+  .importimage {
+    padding: 2px 0.4rem;
+
+  }
+  @media only screen and (max-width: 768px) and (min-width: 575px) {
+    .importimage {
+      font-size: 0.8rem;
+      padding: 1px 0.1rem;
+    }
+    .inputTitle {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+
+    }
+  }

@@ -1,0 +1,174 @@
+.maindiv_order {
+    padding: 2% 5%;
+  }
+
+  .Shipping_add_div {
+    margin: 0px;
+    border: 1px solid lightgray;
+    background: white;
+    padding: 2%;
+    border-radius: 5px;
+  }
+  .Shipping_add_col {
+    border-right: 1px solid lightgray;
+    font-size: 0.9rem;
+  }
+  .Shipping_add_col2 {
+    border-right: 1px solid lightgray;
+    font-size: 0.9rem;
+  }
+  .price_breakup {
+    font-size: 0.9rem;
+  }
+  .price_breakup tr {
+   
+  }
+  .table_td_1 {
+    padding: 0.1rem 0rem;
+  }
+  .table_td_2 {
+    text-align: end;
+  }
+  .Shipping_add p {
+    padding: 0%;
+    margin: 0%;
+    font-size: 0.9rem;
+
+  }
+  .add_section {
+    max-width: 20vw;
+  }
+  .racName{
+    font-weight:bold;
+    padding:5px;
+    text-transform: capitalize;
+  }
+  .textBold{
+    font-weight: bold;
+  }
+  .textCapitalize{
+    text-transform: capitalize;
+  }
+  .secondContentDiv{
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    border-radius:5px;
+    margin-top:15px;
+  }
+  .shipDirectlyTag{
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-left:18px;
+    margin-bottom: 0;
+  }
+  .singleorder_detail {
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    margin-bottom: 1%;
+  }
+  .singleorder_bookimg {
+    display: flex;
+    justify-content: center;
+}
+.singleorder_bookimg,
+.singleorder_detail {
+    padding: 1%;
+}
+.singleorder_bookimg img {
+    width: 7vw;
+    max-height: 9rem;
+  }
+  .singleorder_detail p {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ribbn {
+    margin-top: 1%;
+    font-size: 14px;
+  }
+  .ribbnSpanNew {
+    border-radius: 5px;
+    background: #e26127;
+    padding: 0.8%;
+    color: white;
+  }
+  .ribbnspan {
+    border-radius: 5px;
+    background: green;
+    padding: 0.8%;
+    color: white;
+  }
+  .stepper_container_horizontal {
+    border: 1px solid lightgray;
+    padding: 2% 0%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 0.9rem;
+    background: white;
+  }
+  .stepper_container_vertical {
+    border: 1px solid lightgray;
+    margin: 2% auto;
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 0.9rem;
+    background: white;
+  }
+  .stepper_verticalshow {
+    display: none;
+  }
+
+  .refund_status{
+    font-weight: bold;
+    color: red;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.5rem;
+    background: #f8c8c8;
+  }
+  @media screen and (max-width: 768px) {
+    .add_section {
+      max-width: 100vw;
+    }
+    .Shipping_add_col,
+    .Shipping_add_col2 {
+      border-right: 0px;
+      border-bottom: 1px solid lightgray;
+    }
+    .price_breakup {
+      padding: 1rem;
+    }
+    .singleorder_bookimg img {
+      width: 15vw;
+    }
+    .singleorder_detail {
+      padding: 4%;
+    }
+    .stepper_container_horizontal {
+      padding: 8% 0%;
+    }
+    .stepper_horizontalshow {
+      display: none;
+    }
+    .stepper_verticalshow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .display_add{
+        margin-bottom: 0.5rem;
+    }
+  }
+  @media screen and (max-width: 577px) {
+  }

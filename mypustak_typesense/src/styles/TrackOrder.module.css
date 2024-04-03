@@ -1,0 +1,221 @@
+.Maindiv_trackorder {
+    box-sizing: border-box;
+    padding: 1rem 15vw;
+  }
+  .main_border_div {
+    border: 1px solid #eee;
+  }
+  .header_div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading_text {
+    font-size: 0.7rem;
+  }
+  .heading_txt_p {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .tracking_div_box {
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+  }
+  .tracking_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: #f4f4f4;
+  }
+  .current_status {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0.5rem;
+  }
+  .status {
+    text-align: center;
+  }
+  .time {
+    text-align: end;
+  }
+  .stepperContainerHorizontal {
+    border: 1px solid lightgray;
+    margin: 40px 16px;
+    padding: 2% 0%;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    font-size: 0.9rem;
+    background: white;
+  }
+  .stepperContainerVertical {
+    border: 1px solid lightgray;
+    margin: 2% auto;
+    padding: 5%;
+
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 0.9rem;
+    background: white;
+
+  }
+  .stepperVerticalshow {
+    display: none;
+  }
+
+  .detail_status_div {
+    margin: 0rem 1rem;
+  }
+
+  .each_status {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    padding: 10px 16px;
+    margin-top: 16px !important;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 0.8rem;
+  }
+  .header_mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .header_mobile {
+      display: flex;
+    }
+    .header_desktop {
+      display: none;
+    }
+    .Maindiv_trackorder {
+      box-sizing: border-box;
+      padding: 1rem 1vw;
+    }
+    .current_status {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0.5rem;
+      flex-flow: wrap;
+      flex-direction: column;
+    }
+    .status {
+      text-align: initial;
+    }
+    .stepperContainerHorizontal {
+      padding: 8% 0%;
+    }
+    .stepperHorizontalshow{
+      display: none;
+    }
+    .stepperVerticalshow {
+      display: block;
+
+    }
+    .stepperContainerVertical {
+      padding: 0%;
+
+    }
+  }
+
+  @media screen and (max-width: 538px) {
+    .logoimg {
+      width: 30vw;
+    }
+    .tracking_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0.5rem;
+      background: #f4f4f4;
+    }
+    .tracking_title_staus {
+      margin-top: 1rem;
+    }
+  }
+  .bannerParent{
+    width: 66vw;
+    
+    margin: 1rem;
+    text-align: center;
+    height: 26vh;
+    background-image: url("https://mypustak-5.s3.ap-south-1.amazonaws.com/uploads/homebanner/HOME_1_1_80.webp");
+    box-sizing: border-box;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+  .bannerAd{
+    width: 70vw;
+
+  }
+  @media screen and (max-width: 968px) {
+    .bannerParent{
+    background-image: url("https://mypustak-5.s3.ap-south-1.amazonaws.com/uploads/homebanner/HOME_1_1_80_tab.webp");
+    height: 36vh;
+    box-sizing: border-box;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 66vw;
+    margin: 1rem;
+    text-align: center;
+    height: 20vh;
+    }
+    .stepperContainerVertical {
+      border: 0px solid red;
+    }
+    .each_status {
+      border: 0px solid red;
+    }   .stepperContainerHorizontal {
+      border: 0px solid red;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .bannerParent{
+      width: 92vw;
+    background-size: cover;
+    
+    }
+    .shipingDetails{
+      display: flex;
+    justify-content: center;
+    padding-left: 40%;
+    }
+    .stepperContainerVertical {
+      border: 0px solid red;
+    }
+    .each_status {
+      border: 0px solid red;
+    }   .stepperContainerHorizontal {
+      border: 0px solid red;
+    }
+  }
+  @media screen and (max-width: 568px) {
+    .bannerParent{
+      width: 92vw;
+    background-size: cover;
+    height: 15vh;
+
+    background-image: url("https://mypustak-5.s3.ap-south-1.amazonaws.com/uploads/homebanner/HOME_1_1_80_mobile.webp");
+    }
+    .stepperContainerVertical {
+      border: 0px solid red;
+    }
+    .each_status {
+      border: 0px solid red;
+    }   .stepperContainerHorizontal {
+      border: 0px solid red;
+    }
+    }
+   

@@ -1,0 +1,225 @@
+
+.u_o_loader {
+  display: flex;
+  justify-content: center;
+}
+.maindiv_order {
+  padding: 0% 5%;
+  display: flex;
+}
+.filterDiv{
+  padding: 8px; 
+  /* padding-bottom: 1px; */
+  border: 1px solid #ddd;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex:2;
+  background-color: #fff;
+  height: max-content;
+
+}
+.appliedFilterDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+.appliedFilter{
+  font-size: 0.75rem;
+  margin: 0.1rem;
+  background-color: #ddd;
+  /* border:1px solid #999; */
+  border-radius: 3px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 0.25rem;
+  justify-content: center;
+}
+.Filtereach{
+  font-size: 0.85rem;
+  cursor: pointer;
+
+}
+.FiltereachDiv{
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.FilterOptions{
+  display: flex;
+  flex-direction: column;
+  gap:0.25rem
+}
+.Filterhead{
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.inputDiv{
+  /* margin: 10px 10px; */
+  padding: 8px;
+  padding-bottom: 1px;
+}
+.OrderSearch{
+  outline: 0;
+  /* border: none; */
+  width: 75%;
+  height: 2.25rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.orderMainDiv{
+  background-color:whitesmoke;
+  border: 2px solid lightgray;
+  margin: 10px 10px;
+  padding: 8px;
+  padding-bottom: 1px;
+}
+.topRightDiv{
+  width: 40%;
+  text-align: end;
+  display:flex;
+  justify-content:flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.shipDirectlyTextMob{
+  text-transform:none;
+  font-size:0.8rem;
+  text-align:center;
+  margin-bottom:0.4rem;
+
+}
+.paynowbtn {
+  width: 100px;
+  /* margin-right: 3rem; */
+  text-transform: capitalize;
+}
+.buttonandColWrap{
+  display:flex;
+  justify-content:space-between;
+  flex-direction: column;
+  /* align-items:center; */
+}
+.collapsibleDiv {
+  flex:1;
+  margin-bottom:10px;
+  background-color:white;
+  border:2px solid #ddd;
+  width:100%;
+}
+.viewDetails {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.viewDetails:hover {
+  text-decoration: none;
+}
+.noOfBooks {
+  text-transform: capitalize;
+}
+.payNowtopC {
+  color: green;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.smallFont {
+  font-size: 0.8rem;
+}
+.order_div {
+  /* display: flex; */
+  /* gap:1rem; */
+  width: 100%;
+  /* border:2px solid blue; */
+}
+.eachorder_div {
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.eachorder_div:hover {
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.11);
+}
+.eachorder_div_order {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+.eachorder_div_status {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: "flex",
+  /* minWidth: "4rem",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center", */
+}
+@media screen and (max-width: 768px) {
+  .eachorder_div_order {
+    font-size: 11px;
+  }
+  .triggerDiv {
+    justify-content: space-evenly;
+  }
+  .eachorder_div {
+    padding: 1rem;
+    font-size: 12px;
+  }
+  .amount {
+    font-size: 11px;
+  }
+  .eachorder_div_status {
+    font-size: 11px;
+  }
+  .eachorder_div {
+    margin-bottom: 2%;
+  }
+  .button {
+    width: 7px;
+    height: 10px;
+    font-size: 10px;
+  }
+  .buttonandColWrap {
+    flex-direction: column !important;
+  }
+  .orderson {
+    font-size: 12px;
+  }
+}
+.classP {
+  margin-bottom: 0.2rem;
+}
+@media screen and (max-width: 576px) {
+  .maindiv_order {
+    padding: 0% 0%;
+  }
+  .filterDiv{
+    padding: 8px; 
+    /* padding-bottom: 1px; */
+    /* border: 1px solid #ddd; */
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex:2;
+    /* background-color: #fff; */
+    height: max-content;
+  
+  }
+}
+/* buttonButtons {
+  padding: 0.2rem;
+  margin: 0px;
+  font-size: 0.6rem;
+  min-width: 7.8rem;
+} */

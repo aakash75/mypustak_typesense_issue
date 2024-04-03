@@ -1,0 +1,154 @@
+.couponT {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #couponList {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .coupon_wrapper {
+    /* width: 40%; */
+  }
+  .couponTextfield{
+      margin-left:10%;
+      color:rgb(36, 77, 162);
+      font-weight:bold;
+      font-size: 1rem;
+  }
+  .mypustakCoupons{
+    text-align:center;
+    margin:1%;
+    color:#366ec6;
+    font-size:1.3rem;
+    font-weight:bold;
+  }
+  .newCoupon_maindiv {
+    background: white;
+    /* width: 50%; */
+    height: 12rem;
+    background: linear-gradient(250deg, #81dbfb 0%, #0067c5 100%);
+    color: white;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 5;
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+  }
+  .couponCode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    top: 1.5rem;
+    width: 60%;
+    margin: 1rem;
+    margin-left: 8.5rem;
+    padding: 1rem;
+    z-index: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-height: 4rem;
+  }
+  .coupon_content {
+    padding: 1rem;
+  }
+
+  .offer_title {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .validity {
+    padding-top: 2rem;
+  }
+
+  .newCoupon_maindiv .coupon_content {
+    position: absolute;
+    /* top:0;
+left:0;
+width: 100%;
+height: 100%; */
+    transform-style: preserve-3d;
+    /* display: flex; */
+    /* justify-content: center; */
+    backface-visibility: hidden;
+    transition: 1s ease-in-out;
+    /* align-items: center; */
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .newCoupon_maindiv .main {
+    /* background: #0067c5; */
+  }
+
+  .newCoupon_maindiv .backward {
+    padding: 1rem;
+    font-size: 0.9rem;
+    /* background: blanchedalmond; */
+    transform: perspective(500px) rotateY(180deg);
+    -webkit-transform: perspective(500px) rotateY(180deg);
+    -moz-transform: perspective(500px) rotateY(180deg);
+    -ms-transform: perspective(500px) rotateY(180deg);
+    -o-transform: perspective(500px) rotateY(180deg);
+  }
+
+  .newCoupon_maindiv:hover .main {
+    transform: perspective(500px) rotateY(180deg);
+    -webkit-transform: perspective(500px) rotateY(180deg);
+    -moz-transform: perspective(500px) rotateY(180deg);
+    -ms-transform: perspective(500px) rotateY(180deg);
+    -o-transform: perspective(500px) rotateY(180deg);
+  }
+
+  .newCoupon_maindiv:hover .backward {
+    transform: perspective(500px) rotateY(360deg);
+    -webkit-transform: perspective(500px) rotateY(360deg);
+    -moz-transform: perspective(500px) rotateY(360deg);
+    -ms-transform: perspective(500px) rotateY(360deg);
+    -o-transform: perspective(500px) rotateY(360deg);
+  }
+
+  @media screen and (max-width: 538px) {
+    .newCoupon_maindiv {
+      width: 85vw;
+      margin: 1rem 0.5rem;
+    }
+    .couponCode {
+      margin-left: 15vw;
+    }
+    .newCoupon_maindiv {
+      min-height: 15rem;
+    }
+    .couponT {
+      width: 95%;
+      margin-left: 2.5%;
+    }
+
+    #couponList {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .Termlist {
+      font-size: 13px;
+    }
+  }

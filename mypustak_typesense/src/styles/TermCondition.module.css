@@ -1,0 +1,70 @@
+/* .breadcrumbs {
+    background: white;
+
+    margin: 1%;
+    border-radius: 5px;
+  } */
+  /* .breadcrumbsUl {
+    padding: 0.3rem;
+    list-style: none;
+    display: flex;
+  }
+  .breadcrumbsUl li {
+    padding: 0rem 0.2rem;
+    text-transform: lowercase;
+  } */
+  .termsCondition {
+
+
+      width: 100%;
+      height: 23px;
+      font-size: 156%;
+      text-align: center;
+      color: #000000;
+      /* margin-left: 28%; */
+      padding-top: 1%;
+  }
+  
+  .termshr {
+      /* width: 96%;
+      margin-left: 1.5%;
+      margin-top: 3%; */
+      width: 96%;
+      margin-left: 1.5%;
+      margin-top: 3%;
+  }
+  
+  .termsdiv {
+      margin-left: 2%;
+      margin-right: 3%;
+      text-align: justify;
+      background-color: white;
+      padding-bottom: 2%;
+  }
+  
+  .termspara {
+      padding-top: 1%;
+      color:#346cc4;
+  }
+  
+  .termsandconditionsouterdiv {
+      background-color: white;
+      padding-bottom: 2%;
+       margin-top: 1%; 
+  }
+  
+  @media screen and (max-width: 991px) {
+      .termsandconditionsouterdiv {
+          margin-top: 1%;
+      }
+  }
+  
+  @media screen and (max-width: 538px) {
+      .termsCondition {
+          font-size: 17px;
+      }
+  
+      .termsandconditionsouterdiv {
+          margin-top: 39%;
+      }
+  }

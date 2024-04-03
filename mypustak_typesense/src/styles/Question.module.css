@@ -1,0 +1,36 @@
+.QAMainDIv{
+    display: flex;
+    background-color: #fff;
+    margin: 0 1rem;
+}
+.QALeftDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:0.5rem;
+    padding: 1rem 0;
+    flex:3;
+    border-right: 1px solid #ddd;
+}
+.QARightDiv{
+    flex:9;
+}
+.QAImage{
+    width: 9rem;
+    height: 12rem;
+}
+.mob_book{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .QALeftDiv{
+        display: none;
+    }
+    .QAMainDIv{
+        margin: 0rem;
+        padding: 0 1rem;
+    }
+    .mob_book{
+        display: flex;
+    }
+}

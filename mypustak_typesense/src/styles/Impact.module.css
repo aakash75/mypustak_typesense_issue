@@ -1,0 +1,187 @@
+.maindiv_history {
+    font-family: "Kameron", serif;
+    overflow-x: hidden;
+  }
+  .history_upper {
+    color: white;
+    background: #3056a6;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #3056a6);
+    height: 100vh;
+  }
+  .second_div,
+  .fourth_div {
+    flex-direction: row-reverse;
+  }
+
+  .Title {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+  }
+  .history_title1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Kameron", serif;
+  }
+  .history_title2 {
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    font-family: "Kameron", serif;
+  }
+  .content_story {
+    font-family: "Kameron", serif;
+  }
+  .first_content {
+    padding-top: 3rem;
+  }
+  .content_story ul li {
+    font-family: "Kameron", serif;
+  }
+  .commonText {
+    font-family: "Kameron", serif;
+    font-weight: bold;
+    padding: 1rem 0rem;
+    text-align: center;
+  }
+  .commonList{
+    padding: 1rem 0rem;
+  }
+
+  .arrowdiv_about {
+    position: relative;
+    top: 30vh;
+    cursor: pointer;
+    text-align:center;
+  }
+  .ourstory_content {
+    padding: 1rem 0rem;
+    font-family: "Kameron", serif;
+  }
+  .ourstory_begins_div {
+    padding: 1rem;
+    font-family: "Kameron", serif;
+  }
+  .begin_title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    font-family: "Kameron", serif;
+  }
+  .subheading_title {
+    font-family: "Kameron", serif;
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+    text-align: center;
+  }
+  .left_begin_content {
+    margin: 1rem 0rem;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    font-family: "Kameron", serif;
+  }
+  .right_begin_img {
+    margin: 1rem 0rem;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socialimg{
+    width:35vw;
+  } .save_planet_img {
+  }
+  .care1_img {
+    position: relative;
+    width: 25vw;
+    top: 3rem;
+    left: -2rem;
+  }
+  .care2_img {
+    width: 25vw;
+    position: relative;
+    right: 1rem;
+    top: -3rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .Title {
+      text-align: center;
+      position: relative;
+      top: 10vh;
+      font-family: "Kameron", serif;
+    }
+    .history_title1 {
+      font-size: 2.5rem;
+      font-family: "Kameron", serif;
+      font-weight: bold;
+    }
+    .history_title2 {
+      font-family: "Kameron", serif;
+      padding: 1rem 0rem;
+      font-size: 2rem;
+    }
+
+    .arrowdiv_about {
+      position: relative;
+      top: 23vh;
+      cursor: pointer;
+      text-align:center;
+    }
+    
+    .third_div,
+    .fourth_div {
+      padding: 0rem 1rem;
+    }
+    .save_planet_img {
+    }
+    .care1_img {
+      width: 50vw;
+    }
+    .care2_img {
+      width: 50vw;
+    }
+  }
+
+  @media screen and (max-width: 538px) {
+    .Title {
+      text-align: center;
+      position: relative;
+      top: 10vh;
+      font-family: "Kameron", serif;
+    }
+    .history_title1 {
+      font-size: 2rem;
+      font-family: "Kameron", serif;
+      font-weight: bold;
+    }
+    .history_title2 {
+      font-family: "Kameron", serif;
+      padding: 1rem 0rem;
+      font-size: 1.5rem;
+    }
+
+    .begin_title {
+      font-size: 1.5rem;
+    }
+    .left_begin_content {
+      margin: 1rem 0rem;
+      padding: 1rem 1rem;
+      font-size: 1.2rem;
+    }
+    .socialimg {
+      width: 95vw;
+    }
+    .save_planet_img {
+    }
+    .care1_img {
+      width: 40vw;
+      height: 40vw;
+      top: 3rem;
+      left: 0rem;
+    }
+
+    .care2_img {
+      width: 40vw;
+    }
+  }

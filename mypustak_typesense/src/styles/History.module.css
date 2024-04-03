@@ -1,0 +1,206 @@
+.maindiv_history {
+    font-family: "Kameron", serif;
+  }
+
+  .history_upper {
+    color: white;
+    background: #3056a6;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #3056a6);
+    height: 100vh;
+    font-family: "Kameron", serif;
+  }
+
+  .second_div,
+  .fourth_div {
+    flex-direction: row-reverse;
+  }
+  .third_div,
+  .fourth_div {
+    padding: 0rem 3rem;
+  }
+
+  .root_image {
+    margin-top: -2rem;
+    width: 22rem;
+  }
+  .mile_image {
+    margin-top: -5rem;
+  }
+  .Title {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-family: "Kameron", serif;
+  }
+  .history_title1 {
+    font-size: 3rem;
+    font-family: "Kameron", serif;
+    font-weight: bold;
+  }
+  .history_title2 {
+    font-family: "Kameron", serif;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+  }
+  .history_title3 {
+    font-family: "Kameron", serif;
+    padding: 2rem 0rem;
+    font-size: 1.5rem;
+  }
+  .arrowdiv_about {
+    position: relative;
+    top: 30vh;
+    cursor: pointer;
+    text-align:center;
+  }
+  .story_image1 {
+    margin-top: -2rem;
+    margin-right: 4rem;
+    max-width: 30rem;
+  }
+  .ourstory_content {
+    font-family: "Kameron", serif;
+    padding: 1rem 0rem;
+  }
+  .ourstory_begins_div {
+    padding: 1rem;
+    font-family: "Kameron", serif;
+  }
+  .begin_title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    font-weight: bold;
+    font-family: "Kameron", serif;
+    color: #007bff;
+    text-transform: capitalize;
+  }
+  .alter_tiltle {
+    text-align: justify;
+    margin-left: 5rem;
+    margin-top: -1rem;
+
+    font-family: "Kameron", serif;
+  }
+  .alter_title2 {
+  }
+  .content_story {
+    font-family: "Kameron", serif;
+  }
+  .commonText {
+    font-family: "Kameron", serif;
+  }
+  .left_begin_content {
+    margin: 0rem 0rem;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    font-family: "Kameron", serif;
+  }
+  .Idea_div_content {
+  }
+
+  .image_layer {
+    opacity: 0.75;
+    background: #f7f7f7;
+  }
+  .right_begin_img {
+    margin: 0rem 0rem;
+    padding: 0rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .last_word_story {
+    padding: 0rem 2rem;
+    margin-top: -2rem;
+    padding-top: -2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #0067c5;
+    font-family: "Kameron", serif;
+  }
+
+  @media screen and (max-width: 768px) {
+    .Title {
+      text-align: center;
+      position: relative;
+      top: 10vh;
+      font-family: "Kameron", serif;
+    }
+    .history_title1 {
+      font-size: 2.5rem;
+      font-family: "Kameron", serif;
+      font-weight: bold;
+    }
+    .history_title2 {
+      font-family: "Kameron", serif;
+      padding: 1rem 0rem;
+      font-size: 2rem;
+    }
+    .history_title3 {
+      font-family: "Kameron", serif;
+      padding: 2rem 0rem;
+      font-size: 1.5rem;
+    }
+    .arrowdiv_about {
+      position: relative;
+      top: 23vh;
+      cursor: pointer;
+    text-align:center;
+
+    }
+    .third_div,
+    .fourth_div {
+      padding: 0rem 1rem;
+    }
+    .mile_image,
+    .root_image {
+      width: 40vw;
+    }
+  }
+
+  @media screen and (max-width: 538px) {
+    .Title {
+      text-align: center;
+      position: relative;
+      top: 10vh;
+      font-family: "Kameron", serif;
+    }
+    .history_title1 {
+      font-size: 2rem;
+      font-family: "Kameron", serif;
+      font-weight: bold;
+    }
+    .history_title2 {
+      font-family: "Kameron", serif;
+      padding: 1rem 0rem;
+      font-size: 1.5rem;
+    }
+    .history_title3 {
+      font-family: "Kameron", serif;
+      padding: 2rem 1rem;
+
+      font-size: 1.2rem;
+    }
+    .begin_title {
+      font-size: 1.5rem;
+    }
+    .left_begin_content {
+      margin: 1rem 0rem;
+      padding: 0rem 1rem;
+      font-size: 1.2rem;
+    }
+    .right_begin_img {
+      padding: 0rem;
+    }
+    .story_image1 {
+      margin-right: 0rem;
+      width: 80vw;
+    }
+
+    .mile_image,
+    .root_image {
+      width: 80vw;
+    }
+  }

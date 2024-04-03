@@ -1,0 +1,46 @@
+.sort {
+    margin-right: 1rem;
+    font-size: 0.89rem;
+    font-weight: bold;
+  }
+  .Refineheader {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #2248ae;
+    width: max-content;
+  }
+  .icon{
+    font-size:25px;
+    margin-right:10px;
+    color:#fff;
+}
+.arrowicon{
+    font-size:15px;
+    position:absolute;
+    cursor:pointer;
+    background-color:#fff;
+    color:rgb(68, 49, 141,1);
+    right:-22px;
+    width:1.5rem;
+    height:1.5rem;
+    padding:0;
+    top:9px;
+    border:2px solid rgb(68, 49, 141,0.95);                
+    border-radius:50px;
+}
+.arrowicon:hover{
+  background-color:#fafafa;
+}
+.filterDiv{
+  margin-right:1.873rem;
+}
+@media (min-width: 992px ) and (max-width:1055px){
+  .filterDiv{
+    margin-right:0.75rem;
+  }
+}  
+  @media screen and (max-width: 576px) {
+    .filters {
+      display: none;
+    }
+  }

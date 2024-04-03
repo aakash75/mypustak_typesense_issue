@@ -1,0 +1,329 @@
+.titlediv {
+    background: #fff;
+    color: #000;
+    font-weight:600;
+  }
+  .web_payment{
+  }
+.addNewAddressBtn{
+  text-transform: capitalize;
+  border-color: #d3d3d3;
+  color: #2248ae;
+  outline: none;
+  float: right;
+}
+.addNewAddressBtn:hover{
+  border-color: #999;
+}
+.editAddressBtn{
+  outline: none;
+  text-transform: capitalize;
+  color:#2258ae ;
+  border-color: #d3d3d3;
+}
+.editAddressBtn:hover{
+  border-color: #999;
+}
+.removeOrderBookBtn{
+  text-transform: capitalize;
+  right: 0;
+  border-color: #d3d3d3;
+  font-size:0.9rem ;
+}
+.changeAddressBtn{
+  text-transform: capitalize;
+  border-color: #d3d3d3;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-left: 1.1rem;
+}
+
+.changeAddressBtn:hover{
+  border-color: #999;
+}
+.tab3ChangeAddressBtn{
+  text-transform: capitalize;
+  cursor: pointer;
+  border-color: #d3d3d3;
+  font-size: 0.85rem;
+}
+.tab3ChangeAddressBtn:hover{
+  border-color: #999;
+}
+.tab3ChangeOrderBtn{
+  font-size: 0.85rem;
+  border-color:#d3d3d3 ;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.tab3ChangeOrderBtn:hover{
+  border-color: #999;
+}
+.tab3RechargeWalletBtn{
+  cursor: pointer;
+  text-transform: capitalize;
+  border-color:#d3d3d3 ;
+}
+.tab3RechargeWalletBtn:hover{
+  border-color: #999;
+}
+.tab3WalletContainer{
+  padding: 0.5rem;
+  align-items: flex-start;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.tab3DebitText{
+  font-weight: normal;
+  font-size: 0.7rem;
+  color: #777;
+}
+.paymentOption{
+  padding: 0.5rem;
+  align-items: flex-start;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+.bookCoinsImage{
+  cursor: pointer;
+  margin-left: 3px;
+}
+.cuoponApplyBtn{
+  text-transform: capitalize;
+  height: 2rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.font08{
+  font-size: 0.85rem;
+}
+.font12{
+  font-size: 1.2rem;
+}
+.orderSummeryDiv{
+  margin-left: 0px;
+  margin-right: 0px;
+  background: whitesmoke;
+}
+.orderBookLoaderDiv{
+  min-height: 8rem;
+  background: #fff;
+}
+.bookDetailsOfferDiv{
+  margin-top: -18px;
+  padding:0 0.3rem ;
+}
+.bookOfferImageDiv{
+  margin-top: 0.5rem;
+  height: 7rem;
+}
+  .book_title {
+    font-size: 0.9rem;
+    width: 60vw;
+    margin-bottom: 0.5rem;
+  }
+  .closeDialogIcon{
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+  }
+  .stepbadge {
+    background: #2258ae;
+    color: #fff;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.2rem;
+  }
+  .colored {
+    color: white;
+    background: #2258ae;
+  }
+  .booktotal_cost {
+    text-align: right;
+    padding-right: 0.5rem;
+  }
+  .bookCoinText{
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .tabPanel3{
+    margin-right: 1px;
+    margin-left: 1px;
+    min-height: 25rem;
+  }
+  .tabPanel3Div{
+    background: whitesmoke;
+    padding: 0rem;
+  }
+  .tab3AddressDiv{
+    background: white;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-top: 0rem;
+  }
+  .tab3AddressDetailsDiv{
+    margin-right: 1px;
+  }
+  .tab3AddressDetails{
+    line-height: 20px;
+  }
+  .bookcoin_text {
+    font-size: 0.9rem;
+    padding: 0rem 0.5rem;
+  }
+  .balance_text {
+    font-size: 0.9rem;
+    padding: 0rem 0.5rem;
+    display: flex; 
+    flex-direction: column;
+  }
+  .balance_subtext {
+    color: green;
+    font-size: 0.8rem;
+  }
+  .payment_hint {
+    font-size: 0.7rem;
+    color: #777;
+  }
+  .pay_option {
+    padding-left: 1.5rem;
+  }
+  .mobilefixed{
+    display:none;
+  }
+  .choose_option{
+    padding-left:2rem;
+    padding-top:0.5rem;
+  }
+  .veiwAlladdText{
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: -1rem;
+  }
+  .veiwalladd{
+    float: right;
+  }
+  .veiwalladd > span {
+    cursor: pointer;
+  }
+  .veiwalladd:hover {
+    color: #2248ae;
+  }
+  .minOrderValueIcon{
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    margin-top: 1rem;
+  }
+  .minOrderValueText{
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    margin-top: 1rem;
+  }
+  .deliverHerehide{
+   
+  }
+  .BtnCouponView {
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+    margin-left: 0.5rem;
+  }
+  .BtnCouponApply {
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+  }
+  .applyCouponSuccesMsg{
+    margin-top: 0px;
+    margin-left: 0%;
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .applyCouponSuccesDes{
+    margin-bottom:2% ;
+    font-size: 12px;
+  }
+.codExtrachargeText{
+  height: 26px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: gray;
+
+
+}
+  .address_laoder {
+    margin: 1rem 0rem;
+  }
+
+  .addressdiv{
+    border:1px solid red;
+    min-height:5rem
+  }
+  .mobile_paymentbtn{
+    display:none;
+  }
+  @media screen and (max-width: 567px) {
+    .payment_div_option{
+      min-width:10rem;
+    }
+    .deliverHerehide{
+      display:none;
+    }
+    .delivery_btn{
+      margin-right:2rem;
+    }
+    .mobile_paymentbtn{
+      display:flex;
+      justify-content:space-between;
+      
+      margin:0;
+      
+      padding:0.5rem;
+
+
+    }
+    .mobilefixed{
+      display:block;
+      position:fixed;
+      left:0;
+      z-index:50;
+      width:100vw;
+      background:white;
+      bottom:0;
+      
+    }
+
+    
+    .mobile_coupons{
+      margin-bottom:4rem;
+      padding-bottom:1rem;
+    }
+    .book_title {
+      max-width: 45vw;
+      font-size: 0.8rem;
+    }
+    .payment_hint {
+      font-size: 0.7rem;
+    }
+    .pay_option {
+    padding-left: 1rem;
+  }
+  .choose_option{
+    padding-left:1rem;
+    padding-top:0.5rem;
+  }
+  @keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+  }
+}

@@ -1,0 +1,19 @@
+.sort {
+    margin-right: 1rem;
+    font-size: 0.89rem;
+    font-weight: bold;
+  }
+  .Refineheader {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #2248ae;
+    width: max-content;
+  }
+  .filterDiv {
+    margin-right: 1.873rem;
+  }
+  @media (min-width: 992px) and (max-width: 1055px) {
+    .filterDiv {
+      margin-right: 0.75rem;
+    }
+  }

@@ -1,0 +1,25 @@
+.offerHead {
+
+    font-size: 0.8rem;
+    background: #ff723b;
+    color: white;
+    padding: 0.15rem 2rem;
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .offerHead {
+        text-align: center;
+        font-size: 0.8rem;
+        background: #ff723b;
+        color: white;
+        padding: 0.3rem 1rem;
+        top: 0;
+    
+        z-index: 500;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,107 @@
+.avatar {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+  .subdiv {
+    min-height: 27rem;
+    margin-top: 1rem;
+  }
+  .divHover {
+    background: #fff;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+  .divHover:hover {
+    background: #ff723b;
+    transition: opacity 0.3s;
+    border: 1px solid #ff723b;
+    color: white;
+  }
+  .cityImg {
+    margin-top: 2rem;
+  }
+  .citymainDiv {
+    min-height: 5rem;
+    margin: 0.1rem;
+  }
+  .cityTitle {
+    margin-top: 0.3rem;
+  }
+  .fadeInImage {
+    transition: opacity 5s linear;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .citymainDiv {
+      min-height: 5rem;
+    }
+  }
+  @media only screen and (max-width: 991px) and (min-width: 577px) {
+    .citymainDiv {
+      min-height: 5rem;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .citymainDiv {
+      min-height: 6rem;
+      flex-direction: column;
+    }
+    .maindiv {
+      background: white;
+    }
+    .select_div {
+      margin: 0.1rem;
+    }
+    .subdiv {
+      margin-top: 0.5rem;
+    }
+  }

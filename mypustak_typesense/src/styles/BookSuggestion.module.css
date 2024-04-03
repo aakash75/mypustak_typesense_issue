@@ -1,0 +1,47 @@
+.title {
+    font-weight: 500;
+    font-size: 1.05rem;
+    
+    color:black;
+    margin-left: 1.5rem;
+  }
+  .bookDiv {
+    max-height: fit-content;
+  }
+  .viewmore {
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-right: 1.5rem;
+    color: #2258ae;
+    cursor: pointer;
+    opacity: 0.95;
+  }
+  .viewmore:hover {
+    opacity: 1;
+    font-size: 1.07rem;
+  }
+  .titleDiv {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-width:100%;
+    min-height: 3.125rem;
+    justify-content: space-between;
+    max-height: 3.125rem;
+    margin-bottom: 0.3rem;
+  }
+  @media only screen and (max-width: 576px) {
+    .title {
+      margin-left:0.5rem;
+    font-size: 0.9rem;
+
+    }
+    .viewmore {
+      margin-right: 0.5rem;
+    font-size: 0.9rem;
+    }
+    .viewmore:hover {
+      opacity: 1;
+      font-size: 1rem;
+    }
+  }

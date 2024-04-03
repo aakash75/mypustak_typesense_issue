@@ -1,0 +1,399 @@
+#All {
+    /* position: absolute; */
+    background-color: white;
+    margin-left: 9%;
+    margin-top: 144px;
+    width: 126px;
+    border: none;
+    width: 22px;
+    height: 13px;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-decoration: None;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+}
+
+#Donate {
+    /* position: absolute; */
+    background-color: white;
+    margin-left: 14%;
+    margin-top: 145px;
+    border: none;
+    width: 126px;
+    height: 13px;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-decoration: None;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#General {
+    /* position: absolute; */
+    background-color: white;
+    margin-left: 24%;
+    margin-top: 145px;
+    width: 126px;
+    border: none;
+    width: 64px;
+    height: 13px;
+    text-decoration: None;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#Payments {
+    /* position: absolute; */
+    background-color: white;
+    margin-left: 31%;
+    margin-top: 146px;
+    width: 126px;
+    border: none;
+    width: 79px;
+    height: 17px;
+    text-decoration: None;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#Volunteer {
+    /* position: absolute; */
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 147px;
+    width: 126px;
+    border: none;
+    width: 77px;
+    height: 13px;
+    text-decoration: None;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#Delivery-Options {
+    /* position: absolute; */
+    background-color: white;
+    margin-left: 1%;
+    width: 198px;
+    margin-left: 681px;
+    margin-top: 147px;
+    border: none;
+    height: 17px;
+    text-decoration: None;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+*/ #faq-group {
+    display: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #bbbbc7;
+    background: transparent;
+    box-shadow: none;
+    margin: 1em 0;
+    background: #ffffff;
+    margin-bottom: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+#faq-trigger {
+    position: absolute;
+    display: block;
+    margin-top: 206px;
+    margin-left: 92px;
+    text-decoration: none;
+    width: 1185px;
+    height: 32px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#faq-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#faqbutton {
+    position: absolute;
+    width: 90%;
+    height: 7%;
+    background-color: #ff3232;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-left: 4%;
+}
+
+/* .dropdown {
+    position: absolute;
+    display: inline-block;
+} */
+#faqul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 245px;
+    left: 81px;
+    right: 0px;
+    width: 1201px;
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#faqli a {
+    color: #000;
+    text-decoration: none;
+}
+
+#faqli {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#faqli:last-child {
+    border-bottom: none;
+}
+
+#faqli:hover {
+    background-color: none;
+}
+
+/* #faqtable{
+    border-collapse: collapse;
+    width: 55%;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 2%;
+} */
+#faqhr {
+    width: 90%;
+    margin-left: 4%;
+    color: #f5f7f7;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1%;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-left: 4%;
+
+}
+
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* .active{
+    background-color: white;
+    height: 12vw;
+ }  */
+
+#faqbtn {
+    background-color: transparent;
+    border: none;
+    font-size: 111%;
+}
+
+#faqbtn:focus {
+    outline: none;
+}
+
+#ShowClicked {
+    /* background: #ccc; */
+    border-bottom: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+@media screen and (min-width: 992px) {
+    .Frequently-Asked-Questions {
+        width: 75.4%;
+        height: 4.2%;
+        margin-left: 16%;
+        padding-top: 3%;
+        font-size: 3vw;
+        text-align: center;
+        color: var(--black);
+    }
+
+    #faqtable {
+        width: 90vw;
+        text-align: center;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 1.5vw;
+    }
+
+    /* .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 0%;
+        width: 94vw;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 2vw;
+        margin-left: 2%;
+     } */
+    .accordion .accordion-item .title {
+        background-color: #f6f6f6;
+        color: #444;
+        cursor: pointer;
+        padding: 2vw;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        height: 5vw;
+    }
+
+    .accordion .accordion-item.active .panel {
+        font-size: 1.5vw;
+    }
+
+    #faqdiv {
+        background-color: white;
+        margin-top: 7%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #faqdiv {
+        background-color: white;
+        /* margin-top: 7%; */
+        padding-bottom: 2%;
+    }
+
+    .Frequently-Asked-Questions {
+        width: 75.4%;
+        height: 4.2%;
+        margin-left: 16%;
+        padding-top: 3%;
+        font-size: 3vw;
+        text-align: center;
+        color: var(--black);
+    }
+
+    #faqtable {
+        width: 90vw;
+        text-align: center;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 2vw;
+    }
+
+    .title {
+        width: 246px;
+        height: 100%;
+        font-size: 18px;
+    }
+
+    /* .accordion .accordion-item .title {
+        height: 6vw;
+        font-size: 2vw;
+    }
+    .accordion .accordion-item.active .panel {
+        font-size: 2vw;
+    } */
+}
+
+@media screen and (max-width:538px) {
+
+    /* .accordion .accordion-item .title:after {
+        content: "+";
+        font-size: 4vw;
+        color: #777;
+        position: absolute;
+        float: right;
+        right: 49px;
+    } */
+    .Frequently-Asked-Questions {
+        margin-left: 14%;
+        padding-top: 1%;
+        font-size: 4vw;
+    }
+
+    #faqtable {
+        width: 90vw;
+        font-size: 2.5vw;
+    }
+
+    #faqdiv {
+        margin-top: 26%;
+    }
+}

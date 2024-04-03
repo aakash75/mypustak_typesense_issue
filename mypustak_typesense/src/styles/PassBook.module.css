@@ -1,0 +1,13 @@
+.card-type {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+
+  .card-type td {
+    border: 1px solid #dddddd;
+    text-align: center;
+  }
+  .card-type th {
+    border: 1px solid #dddddd;
+    text-align: center;
+  }

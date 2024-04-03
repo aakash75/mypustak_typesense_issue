@@ -1,0 +1,63 @@
+.fixedNextBtnDiv {
+    position: fixed;
+    z-index: 1050;
+    width: 100vw;
+  }
+  .topTitle{
+    font-size:1rem;
+    padding:0.5rem;
+    color: gray; 
+  }
+  .fixedNextBtn {
+    background: #2255ae;
+    height: 4rem;
+    width: 20rem;
+  }
+  .imgMainDiv {
+    height: 6rem;
+    width: 7rem;
+  }
+  .borderStep1 {
+    border: 1px solid lightgray;
+    border-left: 0px;
+  }
+  .borderStep2 {
+    border: 1px solid lightgray;
+    border-right: 0px;
+    border-left: 0px;
+  }
+  .borderStep3 {
+    border: 1px solid lightgray;
+    border-top: 0px;
+    border-left: 0px;
+  }
+  .borderStep4 {
+    border-bottom: 1px solid lightgray;
+  }
+  .button_div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media only screen and (max-width: 576px) {
+    .marginBottomM {
+      margin-bottom: 5rem;
+    }
+    .fixedNextBtnDiv {
+      bottom: 3.1rem;
+    }
+    .pickupTitle {
+      font-size: 1.1rem;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .imgMainDiv {
+      height: 5rem;
+      width: 8rem;
+    }
+  }
+  @media only screen and (max-width: 992px) and (min-width: 767px) {
+    .imgMainDiv {
+      height: 7rem;
+      width: 8rem;
+    }
+  }

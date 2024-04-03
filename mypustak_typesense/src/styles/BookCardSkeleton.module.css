@@ -1,0 +1,198 @@
+
+ .prices{
+   margin-bottom:5px;
+   background-color:#fff;
+ }
+ .button{
+   cursor:pointer;
+   border:none;
+   color:#fff;
+   background-color:#fff;
+   height:1.875rem;
+   width:6.875rem;
+   font-family:Roboto;
+   font-weight: 400;
+   font-size: 0.75rem;
+
+   background:  linear-gradient(90deg, #2157AD 0%, #6190DA 100%);
+   border-radius: 4.18446px;
+   margin-bottom:3px;
+ }
+ .textDiv{
+   background-color:#fff;
+   display:flex;
+   flex-direction:column;
+   align-items:flex-start;
+   /* The CSS rule `max-width:9.984rem; min-width:9.984rem;` is setting both the maximum and minimum
+   width of an element to 9.984rem. This means that the element will not exceed a width of 9.984rem
+   and will also not shrink below that width, ensuring that it maintains a consistent width within
+   that range. This can be useful for maintaining a specific layout or design for the element across
+   different screen sizes or devices. */
+   /* max-width:9.984rem;
+   min-width:9.984rem; */
+   margin-top:5px;
+ }
+ .bookImage{
+   background-color:#fff;
+   min-width:9.984rem;
+   padding:0 0.7rem;
+   max-height:fit-content;
+   min-height:fit-content;
+ }
+ .bookCoinsDiv{
+   display:flex;
+   align-items:center;
+   justify-content:flex-start;
+   min-width:9.984rem;
+   max-width:10.984rem;
+ }
+ .buttonDiv{
+
+   /* max-width:9.984rem; */
+   background-color:#fff;
+   /* min-width:9.984rem; */
+   display:flex;
+   justify-content:flex-start;
+ }
+ .containerDiv{
+  
+   cursor:pointer;
+   min-width:14.0045vw;
+   min-height:100%;
+   background-color:#fff;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+ }
+ .mainBookDiv:hover{
+
+ box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6);
+ transition:0.5s;
+ }
+ .bookcoinsSpan{
+   font-weight: 300;
+   font-size: 0.75rem;
+   color: #098041;
+   margin-top:3px;
+ }
+ .otherpriceSpan{
+   font-weight: 400;
+   font-size: 0.875rem;
+   color: #5F6365;
+   background-color:#fff;
+ }
+ .priceSpan{
+   background-color:#fff;
+   font-weight: 500;
+   font-size: 1rem;
+   color: #098041;
+ }
+ .bookTitle{
+   background-color:#fff;
+   font-weight: 400;
+   font-size: 0.8rem;
+   line-height: 1rem;
+   color: #484848;
+   margin-top:5px;
+   margin-bottom:5px;
+ }
+ .categories{
+   margin-top:2px;
+   font-weight: 400;
+   background-color:#fff;
+   font-size: 0.625rem;
+   line-height: 0.75rem;
+   color: rgba(0, 0, 0, 0.6);
+   margin-bottom:5px;
+ }
+ .mainBookDiv{
+   background-color:#fff;
+   position:relative;
+   min-width:16.8rem;
+   min-height:21.063rem;
+   max-height:fit-content;
+
+   padding:0.625rem 0.875rem;
+   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+
+   border-right: 0.5px solid #ddd;
+   border-bottom: 0.5px solid #ddd;
+
+ }
+ @media screen and (max-width: 991px){
+   .bookImage{
+     padding:0;
+   }
+   .buttonDiv{
+     padding:0;
+   }
+   .textDiv{
+     padding:0;
+   }
+ }
+
+ @media only screen and (max-width: 850px) and (min-width:710px){
+   .bookImage{
+     padding:0 0.5rem;
+   }
+   .buttonDiv{
+     padding:0 0.5rem;
+
+   }
+   .textDiv{
+  
+   }
+ }
+
+ @media only screen and (max-width: 710px) and (min-width: 576px) {
+   .bookImage{
+     padding:0 0.7rem;
+   }
+   .buttonDiv{
+     padding:0 0.7rem;
+
+   }
+   .textDiv{
+
+
+   }
+ }
+ @media only screen and (max-width: 575px) and (min-width:380px){
+   .bookImage{
+     padding:0 0px;
+   }
+   .buttonDiv{
+     max-width:100%;
+     min-width:100%;
+     padding:0 0px;
+   }
+   .textDiv{
+     max-width:100%;
+     min-width:100%;
+     padding:0 0px;
+   }
+   .bookCoinsDiv{
+     max-width:100%;
+     min-width:100%;
+   }
+ }
+
+ @media only screen and (max-width: 380px) {
+   .bookImage{
+     padding:0 20px;
+   }
+   .buttonDiv{
+     max-width:100%;
+     min-width:100%;
+     padding:0 0px;
+   }
+   .textDiv{
+     max-width:100%;
+     min-width:100%;
+     padding:0 0px;
+   }
+   .bookCoinsDiv{
+     max-width:100%;
+     min-width:100%;
+   }
+ }

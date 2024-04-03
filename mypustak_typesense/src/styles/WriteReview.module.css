@@ -1,0 +1,221 @@
+.writeReview_top_div{
+    background-color: #fff;
+    /* border:1px solid #ddd; */
+    display: flex;
+    padding: 1rem 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.not_puchased_head{
+    font-size: 2rem;
+}
+.not_puchased_body{
+    font-size: 1.5rem;
+}
+.writeReview_not_purchased{
+    background-color: #fff;
+    display: flex;
+    flex: 8;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button_div{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+.writeReview_h1{
+    /* font-size: 2rem; */
+    padding: 0;
+    margin: 0;
+}
+.writeReview_bottom_div{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.writeReview_left_div{
+    flex:3;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border:1px solid #ddd;
+}
+.writeReview_right_div{
+    flex:9;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #fff;
+    margin-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    /* border:1px solid #ddd; */
+}
+.star_div{
+    display: flex;
+    align-items: baseline;
+    
+}
+.star_div_each{
+    padding-right: 0.5rem;
+}
+.writeReview_right_div_head{
+    padding: 0.5rem 1rem;
+    padding-bottom: 1rem;
+    /* border-bottom:1px solid #ddd; */
+    
+}
+.description_div{
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+ }
+.writeReview_right_div_body{
+    padding: 0.5rem 1rem;
+    padding-bottom: 1rem;
+}
+.toggleShow{
+    display: none;
+}
+.book_div{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 1rem;
+
+}
+.right_top_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #ddd;
+}
+.writeReview_left_div_head{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #ddd;
+
+}
+.writeReview_left_div_body{
+    padding: 0.5rem 1rem;
+}
+.writeReview_left_div_body_mobile{
+    padding: 0.5rem 1rem;
+}
+.writeReview_left_each_div_body{
+    border-bottom:1px solid #ddd;
+    padding: 1rem 0rem;
+
+
+}
+.review_book_main{
+    /* margin-top: 2rem; */
+    background-color: #fff;
+    margin: 2rem 5rem ;
+}
+.review_book_body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.review_book_head{
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #ddd;
+    
+}
+.map_main_div{
+    /* flex: 3; */
+    display: flex;
+    padding: 1rem;
+    gap: 0.5rem;
+    align-items: flex-start;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    margin: 0.5rem;
+}
+.data_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 10rem;
+    height: 8rem;
+    justify-content: space-between;
+    max-height: 8rem;
+    /* flex:8 */
+}
+.image_div{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    /* flex:4; */
+    /* width: 4rem; */
+    /* height: 5rem; */
+}
+@media screen and (max-width: 768px) {
+    .writeReview_left_div{
+        flex:4
+    }
+    .writeReview_right_div{
+        flex:8
+    }
+    .book_div{
+     
+        margin-right: 0rem;
+    
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .writeReview_bottom_div{
+        display: flex;
+        margin-top: 0.5rem;
+        flex-direction: column;
+    }
+    .toggleShow{
+        display: block;
+    }
+    .writeReview_left_div{
+        margin-bottom: 1rem;
+        padding-bottom: 0rem;
+
+    }
+    .writeReview_right_div{
+    margin-left: 0rem;
+    }
+    .writeReview_left_div_body{
+        display: none;
+    }
+    .button_div{
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        bottom:55px;
+        background-color: #fff;
+        padding: 1rem 0;
+        /* z-index: 1500; */
+        /* padding: 0 1rem; */
+    }
+    .right_top_div{
+        flex-direction: column;
+        justify-content:center;
+        align-items: flex-start;
+    }
+    .book_div{
+        padding: 0.5rem 1rem;
+    }
+    .review_book_main{
+        margin: 2rem 0;
+    }
+    .writeReview_not_purchased{
+        margin-left: 0;
+        padding: 1rem;
+    }
+    .not_puchased_head{
+        font-size: 1.4rem;
+    }
+    .not_puchased_body{
+        font-size: 1rem;
+    }
+  }

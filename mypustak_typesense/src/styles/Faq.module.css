@@ -1,0 +1,36 @@
+.main_div h5 {
+  font-size: 0.875rem;
+  color: #484848;
+}
+
+.main_div p {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* -----------------------------------IMPORT JSX AS A CSS FROM `Faq`---------------------------------------- */
+.mobile_expansion{
+  display:none;
+}
+.WebReactVideo{
+    height:50vh;
+}
+@media screen and (max-width: 576px) {
+  .desktop_view{
+    display:none;
+  }
+  .mobile_expansion{
+    display:block;
+    margin:1rem 0rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+    .WebReactVideo{
+        height:40vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    .WebReactVideo{
+        height:30vh;
+    }
+}

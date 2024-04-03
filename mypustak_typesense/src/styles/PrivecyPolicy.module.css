@@ -1,0 +1,57 @@
+
+  .privacyPolicy {
+    width: 100%;
+    /* height: 23px; */
+    font-family: Helvetica;
+    font-size: 156%;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    /* margin-left: 35%; */
+    padding-top: 3%;
+}
+.privacyhr {
+    width: 96%;
+    margin-left: 1.5%;
+    margin-top: 1%;
+}
+.privacyouterdiv {
+    background-color: white;
+    margin-top: 1%;
+    padding-bottom: 3%;
+}
+.termspara{
+    color:#346cc4;
+}
+.privacydiv {
+    margin-left: 2%;
+    margin-right: 3%;
+    text-align: justify;
+}
+
+.privacyouterdiv {
+    background-color: white;
+    /* margin-top: 7%; */
+    padding-bottom: 2%;
+}
+@media screen and (max-width: 991px) {
+    .privacyouterdiv {
+        margin-top: 0%;
+    }
+    .privacyPolicy {
+        padding-top: 1%;
+    }
+}
+@media screen and (max-width: 538px) {
+    .privacyPolicy {
+        font-size: 17px;
+        /* margin-left: 26%; */
+    }
+    .privacyouterdiv {
+        margin-top: 25%;
+    }
+}

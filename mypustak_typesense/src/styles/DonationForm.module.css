@@ -1,0 +1,40 @@
+.stepbadge {
+    background: #2258ae;
+    color: #fff;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.2rem;
+  }
+  .fontSize09 {
+    font-size: 1.1rem;
+  }
+  .colored {
+    color: white;
+    background: #2258ae;
+  }
+  .FormDiv {
+  }
+  .TopPannelDiv {
+  }
+  @media only screen and (max-width: 576px) {
+    .TabTitle {
+      font-size: 0.8rem;
+    }
+    .FormDiv {
+    }
+    .TopPannelDiv {
+    }
+    .TitleExpension {
+      font-size: 0.8rem;
+    }
+    .midLebel {
+      font-size: 0.8rem;
+    }
+    .inputFieldform {
+      margin-bottom: 5rem;
+    }
+  }

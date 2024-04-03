@@ -1,0 +1,76 @@
+.main_footer {
+    margin: 0.2rem
+}
+
+.main_div {
+
+    background: linear-gradient(to left, #FFFFFF, #E9E9E9);
+    padding: 2rem;
+}
+
+.main_div_h5 {
+    color: #2157AD;
+    font-size: 1rem;
+}
+
+.main_div_first_para {
+    color: rgba(26, 26, 26, 0.8);
+    font-size: 0.75rem;
+
+}
+
+.social_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list_style {
+    list-style: none;
+    padding-left: 0px;
+    color: #ffffff;
+}
+
+.last_div {
+
+    /* background: Linear Gradient#2157AD  0% #6190DA  100%; */
+    background: linear-gradient(to right, #2157AD, #6190DA);
+
+
+}
+
+.Newtext {
+    animation: blinkingText 1s infinite;
+}
+
+@keyframes blinkingText {
+    0% {
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0;
+        /* color: transparent; */
+    }
+
+    35% {
+        opacity: 1;
+        /* color: #ff723b; */
+    }
+
+    50% {
+        opacity: 1;
+        /* color: #ff723b; */
+    }
+
+    99% {
+        opacity: 1;
+        /* color: #ff723b; */
+    }
+
+    100% {
+        opacity: 0;
+        /* color: transparent; */
+    }
+}

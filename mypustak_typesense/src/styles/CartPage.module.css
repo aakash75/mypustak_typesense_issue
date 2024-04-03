@@ -1,0 +1,157 @@
+    .cartBookTitle{
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        max-width: 40vw;
+      }
+    .cartBookTitle:hover {
+      color: #2255ae;
+      cursor: pointer;
+    }
+    .emptyCartDiv{
+        padding: 7%;
+        margin: 4%;
+        font-size: 30px;
+        text-align: center;
+        background: white;
+    }
+    .offerBookDialogTotle{
+      color: "green";
+      font-weight: "bold";
+      margin-bottom:0.5rem;
+    }
+    .offerBookDialogSubTotle{
+      font-size:0.9rem;
+    }
+    .cart_list_data {
+      border: 1px solid lightgray;
+      padding: 5px;
+      min-height: 7rem;
+      margin-top: 5px;
+      background: white;
+    }
+
+    .cart_right_inner {
+      position: sticky;
+      position: webkit-sticky;
+      top: 5rem;
+    }
+    .cartLeft_proceed {
+      position: sticky;
+      position: webkit-sticky;
+      bottom: 0rem;
+    }
+    .offerbooktitle{
+      color:#000
+    }
+    .offerbooktitle:hover{
+      color:#2248ae;
+    }
+    .skeletonContainer{
+      margin: 3rem;
+    }
+    
+    .cartpage_footer {
+      display: flex;
+      font-size: 0.9rem;
+      justify-content: center;
+      padding: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid lightgrey;
+      text-decoration: none;
+    }
+    .offerbook {
+      display: flex;
+      flex-direction: row;
+      background: white;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      margin-top: 0%;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding: 1%;
+      transition: all 0.7s linear;
+      -webkit-transition: all 0.7s linear;
+      -moz-transition: all 0.7s linear;
+      -o-transition: all 0.7s linear;
+      -ms-transition: all 0.7s linear;
+    }
+    .offer {
+      animation: blinkingText 1s infinite;
+    }
+    .bookimg {
+      width: 5rem;
+      margin-right: 1rem;
+    }
+    @keyframes blinkingText {
+      0% {
+        color: transparent;
+      }
+      15% {
+        color: transparent;
+      }
+      35% {
+        color: #ff723b;
+      }
+      50% {
+        color: #ff723b;
+      }
+      99% {
+        color: #ff723b;
+      }
+      100% {
+        color: transparent;
+      }
+    }
+
+    @media screen and (max-width: 567px) {
+      .emptyCartDiv{
+        padding: 17% 7%;
+        margin: 4%;
+      }
+      .offerBookDialogTotle{
+        font-size:0.9rem;
+        margin-bottom:0.3rem;
+      }
+      .offerBookDialogSubTotle{
+        font-size:0.8rem;
+      }
+      .priceDetails {
+        display: none;
+      }
+      .bookimg {
+        margin-right: 0.5rem;
+        margin-left:0.5rem;
+      }
+      .cartLeft {
+        display: none;
+      }
+      .imagediv {
+        height: 5rem;
+      }
+      .offerbook {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        margin-top: 0%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 0.1rem;
+        transition: all 0.7s linear;
+        -webkit-transition: all 0.7s linear;
+        -moz-transition: all 0.7s linear;
+        -o-transition: all 0.7s linear;
+        -ms-transition: all 0.7s linear;
+      }
+      .cartDetails {
+        padding: 0.2rem 0.5rem;
+      }
+      .cart_list_data {
+        border: 0px;
+      }
+      .cartpage_footer {
+        font-size: 0.8rem;
+        /* background: ; */
+      }
+      .skeletonContainer{
+        margin: 0.2rem;
+      }
+    }

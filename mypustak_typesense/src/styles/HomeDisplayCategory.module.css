@@ -1,0 +1,133 @@
+.dontShow{
+   display:none;
+ }
+ 
+ .show{
+   border:0.125rem solid #555;
+   background: #555;
+   border-radius: 6px;
+   margin:3px 0;
+   width:83%;
+   opacity:1;
+   
+ }
+ .maindiv{
+
+     margin-top:1rem;
+     overflow-y:hidden;
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+     max-width:1500px;
+
+ }
+ .Bookdiv{
+
+   display:flex;
+
+   overflow-y:hidden;
+
+   justify-content:space-between;
+ }
+ .booksDiv{
+   max-width:98%;
+ }
+ .categoriesSpan{
+   background-color:#fff;
+     display:flex;
+     align-items:center;
+     color:#555;
+     justify-content:center;
+     cursor:pointer;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1rem;
+
+   }
+   .active{
+     font-weight: 600;
+   }
+   
+   .categoriesTabs{
+     display:grid;
+   background-color:#fff;
+     grid-auto-flow: column;
+     grid-template-columns:3fr 3fr 3fr 3fr;
+     width:100vw;
+
+     max-width:1500px;
+     padding:5px 12rem;
+     max-height:4.188rem;
+     min-height:4.188rem;
+     border: 0.5px solid #ddd;
+
+   }
+   .categoriesTabs::-webkit-scrollbar { 
+     display: none;  /* Safari and Chrome */
+ }
+   @media screen and (min-width: 992px){
+     .categoriesTabs{
+           padding:5px 5px;
+           height:7.97vh;
+           -ms-overflow-style: none;  /* Internet Explorer 10+ */
+           scrollbar-width: none;  /* Firefox */
+       
+           
+         }
+         .categoriesTabs::-webkit-scrollbar { 
+           display: none;  /* Safari and Chrome */
+       }
+       .display_992{
+          display: flex;
+      
+       }
+       .display_991{
+        display: none;
+       }
+       .display_575{
+        display: none;
+       }
+ }
+
+ @media screen and (max-width: 991px){
+   .show{
+     border:0.063rem solid #555;
+     margin:2px 0;
+     width:100%;
+   }
+   .categoriesTabs{
+         padding:0px 0px;
+         height:7.97vh;
+         width:100vw;
+   
+         max-height:3.588rem;
+           min-height:3.588rem;
+     margin-bottom:0.2rem;
+       }
+   .categoriesSpan{
+     font-size:0.85rem;
+   }
+
+   .display_992{
+    display: none;
+ }
+ .display_991{
+  display: flex;
+ }
+ .display_575{
+  display: none;
+ }
+}
+
+@media screen and (max-width: 575px){
+  .display_992{
+    display: none;
+ }
+ .display_991{
+  display: none;
+ }
+ .display_575{
+  display: flex;
+ }
+}

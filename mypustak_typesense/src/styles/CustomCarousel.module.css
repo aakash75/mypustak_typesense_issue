@@ -1,0 +1,170 @@
+/* .carousel-container {
+   width: 100%;
+   border:1px solid red;
+   overflow: none;
+ }
+ 
+ .carousel {
+   position: relative;
+   width: 100%;
+   display: flex;
+   transition: transform 0.5s ease;
+ }
+ 
+ .slide {
+   min-width: 100%;
+   flex: 0 0 auto;
+   transition: opacity 0.5s ease;
+ }
+ 
+ .slide img {
+   width: 100%;
+   height: auto;
+ }
+ 
+ .caption {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   padding: 10px;
+ }
+ 
+ .active {
+   opacity: 1;
+ }
+ 
+ .prev,
+ .next {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   z-index: 2;
+ }
+ 
+ .prev {
+   left: 0;
+ }
+ 
+ .next {
+   right: 0;
+ }
+
+
+for coustom_dot 
+
+  */
+
+
+  
+  /* This range often targets smartphones in portrait orientation or small handheld devices like smartphones in landscape mode.
+   It ensures that the content is appropriately styled for small screens. */
+    @media screen and (max-width: 575px){
+      .display_575{
+        display: flex;
+        border: 1px solid green;
+      }
+      .display_576{
+        display: none;
+      }
+      .display_768{
+        display: none;
+      }
+      .display_576_767{
+        display: none;
+      }
+      .display_992{
+        display: none;
+      }
+
+    }
+
+
+    /*  This range usually targets larger smartphones in landscape mode or small tablets. 
+    It provides styles suitable for slightly larger screens compared to the previous query. */
+  @media screen and (min-width: 576px){
+ .display_575{
+        display: none;
+      }
+      .display_576{
+        display: flex;
+      }
+      .display_768{
+        display: none;
+      }
+      .display_576_767{
+        display: none;
+      }
+      .display_992{
+        display: none;
+      }
+
+  }
+
+  /* This range is often tailored for tablets in both portrait and landscape orientations, as well as smaller laptop screens. 
+  It adjusts styles to accommodate medium-sized screens. */
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .display_575{
+        display: none;
+    }
+    .display_576{
+      display: none;
+    }
+    .display_768{
+      display: flex;
+    }
+    .display_576_767{
+      display: none;
+    }
+    .display_992{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 992px){
+    .display_992{
+      display: flex;
+    }
+    .display_575{
+      display:none;
+  }
+  .display_576{
+    display: none;
+  }
+  .display_768{
+    display: none;
+  }
+  .display_576_767{
+    display: none;
+  }
+  }
+
+
+
+  /*This range typically targets devices with slightly larger screens than smartphones but smaller than tablets, such as phablets.
+   It ensures that the layout remains optimized for screens in this size range.  */
+  @media only screen and (min-width: 576) and (max-width: 767px) {
+    .display_575{
+        display:none;
+    }
+    .display_576{
+      display: none;
+    }
+    .display_768{
+      display: none;
+    }
+    .display_576_767{
+      display: flex;
+    }
+    .display_992{
+      display: none;
+    }
+  }

@@ -1,0 +1,255 @@
+.maindiv {
+  overflow: visible !important;
+}
+
+.side_div {
+  width: 30rem;
+  /* box-shadow: 0px 0px 6px 0px #00000026; */
+}
+
+.availbal {
+color: #2157ad;
+box-shadow: 0px 2px 6px 0px #0000001a;
+
+height: 3.813;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+border-radius: 0.3rem;
+}
+
+.btn_set button {
+  border: 2px solid #343345;
+}
+
+.main_form > form > div:nth-child(2n + 1) > button {
+  background: linear-gradient(90deg, #2157ad 0%, #6190da 100%);
+}
+
+.main_form input:focus {
+  outline: none;
+}
+
+.leftImgDiv {
+  background-image: url("../assets/rangoli_wallet_1.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 8.5rem 11.5rem;
+}
+
+.rightImgDiv {
+  background-image: url("../assets/rangoli_Wallet_2.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 8.5rem 13.5rem;
+}
+.bannerBackgroundimg{
+  background-image: url("../assets/WalletBannerBackgroundimg.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 25.5rem 20.5rem;
+  margin: 0rem 3.5rem;
+}
+.buttomrightImgDiv {
+  background-image: url("../assets/rangoli_Wallet_2.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 12.5rem 12.5rem;
+}
+
+.buttomleftImgDiv {
+  background-image: url("../assets/rangoli_Wallet_2.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 12.5rem 12.5rem;
+}
+.inputDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.walletAmountButtons{
+  box-sizing: border-box;
+  min-width: 4.9rem;
+  /* width: 8vw; */
+  height: 2.3rem;
+  background: #FFFFFF;
+  border: 2px solid #343345;
+  border-radius: 3px;
+  margin:0.3rem
+}
+.walletAmountButtons:hover{
+  background:#2157ad;
+}
+.BannerHeading{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #343345;
+}
+.BannerParaGraph{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #555555;
+}
+.amountDetailsTableRow{
+  /* border:2px solid red;
+  padding-top: 0.4rem;
+  margin: 1rem;
+  row-gap: 1rem; */
+}
+.bannerBtnPara{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1rem;
+/* identical to box height */
+  text-align: start;
+  color: #484848;
+}
+  .walletOfferDiv{
+  border-radius: 0.4rem;
+  cursor: pointer;
+  /* background: whitesmoke; */
+  /* border: 1px solid lightgray; */
+  box-shadow: 2px 2px 3px 3px #ddd;
+  max-width: 13.5rem;
+   min-width: 13rem; 
+   min-height: 5rem;
+  display: flex;
+   flex-direction: column;
+  padding: 0.5rem;
+  transition: 0.15s;
+  font-size: 0.8rem;
+  position: relative;
+  padding-top: 1.9rem;
+}
+.walletOfferDiv:hover{
+  /* border: 1px solid #0d6efd; */
+  scale: 1.03;
+}
+.Stick{
+  background:#376fc7;
+  color:white;
+  /* clip-path:polygon(0 0 ,100% 0 , 100% 100% ,50% 90%, 0 100%  ); */
+  /* clip-path:polygon(0 0 ,100% 0 , 10% 80% , 90% 10% ,  0 23%,  ); */
+  clip-path: polygon(0% 0% ,100% 0%, 100% 100% ,0% 100%, 10% 50% );
+  width:7.5rem;
+  height:2.1rem;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  /* flex-direction: column; */
+  gap:0.25rem;
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  font-size: 0.7rem;
+}
+
+.Stick:after {
+	content:'';
+  top:0;
+	transform:translateX(100%);
+	width:100%;
+	height:220px;
+	position: absolute;
+	z-index:1;
+	animation: slide 1.25s infinite 3s;
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(128,186,232,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.8)), color-stop(99%,rgba(128,186,232,0)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+/* animation */
+
+@keyframes slide {
+	0% {transform:translateX(-100%);}
+	100% {transform:translateX(100%);}
+}
+
+
+.walletUpperDiv{
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.walletUpperDiv::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+.newwalletUpperDiv{
+  padding: 0.7rem;
+  display: flex; 
+  gap: 1rem;
+  overflow-x: scroll;
+  margin-left: 2rem;
+  overflow-y: hidden;
+  /* min-height: 6.7rem; */
+}
+.offerValueText{
+  font-size: 0.87rem;
+  margin-top: 5px
+}
+.offerValueOfferText{
+  color: #0d6efd; 
+  font-size: 0.87rem;
+}
+@media screen and (max-width: 767px) {
+ 
+}
+@media screen and (max-width: 992px) {
+  .bannerBackgroundimg{
+    margin: 0rem 1.5rem;
+  }
+  .inputDiv{
+    flex-direction:column;
+  }
+  .walletAmountButtons{
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bannerBackgroundimg{
+    margin: 0rem 0.5rem;
+  }
+  .bannerRow{
+    flex-direction: column-reverse;
+  }
+  .BannerHeading{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .TopDetailsDiv {
+    margin-bottom: 2rem;
+  }
+  .walletOfferDiv{
+    max-width: 11.5rem;
+    min-width: 11rem; 
+    min-height: 4.5rem;
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+  }
+  .newwalletUpperDiv{
+    margin-left: 2.5rem;
+    
+  }
+  .offerValueText{
+    font-size: 0.77rem;
+  }
+  .offerValueOfferText{
+    font-size: 0.77rem;
+    line-height: 0.7rem;
+  }
+
+}

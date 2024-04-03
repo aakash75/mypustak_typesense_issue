@@ -1,0 +1,143 @@
+/*-------------------- LoginPage jsx  ----------------------*/
+.mainDiv {
+  width: 60vw;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .mainDiv {
+    width: 90vw;
+  }
+}
+
+/*--------------------End LoginPage jsx  ----------------------*/
+
+
+
+/*-------------------- LoginDiv jsx  ----------------------*/
+.MainLoginDiv {
+  background: linear-gradient(270deg, #81dbfb 0%, #0067c5 100%);
+}
+
+.innerText {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.row {
+  margin: 0%;
+  padding: 0%;
+}
+
+.Leftpart {
+  padding: 40px 10px;
+  color: white;
+  min-height: 72vh;
+  background: linear-gradient(90deg, #2157ad 0%, #6190da 100%);
+}
+
+.mob_content {
+  display: none;
+  flex-direction: column;
+}
+
+.left_heading {
+  font-size: 1.3rem;
+}
+
+.bannerImgWeb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.bannerImgMob {
+  display: none;
+}
+
+.Rightpart {
+  background: white;
+}
+
+.Login_form_div {
+  padding: 0px 4%;
+  padding-bottom: 0%;
+  margin-top: 1rem;
+}
+
+.Login_feild {
+  padding-top: 3px 10px;
+}
+
+.other_login {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.chnageText {
+  color: #2258ae;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.forgetPasswort {
+  text-align: right;
+  cursor: pointer;
+  color: #2258ae;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .Leftpart {
+    padding: 20px 33px;
+    padding-bottom: 0px;
+  }
+
+  .bannerImgWeb {
+    display: none;
+  }
+
+  .bannerImgMob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .innerText {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .mob_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left_heading {
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .left_heading p {
+    margin: 0px;
+  }
+
+  .Leftpart {
+    min-height: 5vh;
+  }
+
+  .Rightpart {
+    height: 18rem;
+  }
+}
+
+/*--------------------End LoginDiv jsx  ----------------------*/
